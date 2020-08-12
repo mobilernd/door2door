@@ -67,5 +67,5 @@ The `result` we get is a `dict` that looks like the following:
 
 
 
-
+![Untitled](https://user-images.githubusercontent.com/15266919/90051912-b66f1000-dcd8-11ea-98d6-b84871180da1.png)
 
