@@ -1,6 +1,6 @@
 # What should you do to run this project ?
 
-Please follow up the following steps in arrangement please ( start with backend first ) .
+Please follow up the following steps in arrangement  ( please start with backend first ) .
 
 # BackEnd-Django
 
