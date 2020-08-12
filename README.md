@@ -70,7 +70,21 @@ The `result` we get is a `dict` that looks like the following:
 
 ![Untitled](https://user-images.githubusercontent.com/15266919/90051912-b66f1000-dcd8-11ea-98d6-b84871180da1.png)
 
-## BackEnd RestApi output  
-The `result` we get is a `dict` that looks like the following: 
+## FrontEnd and Map visualization   
+
+Front end React uses lib called Axios to Get Rest API data from Django Back end .
+
+What is the format of URL to request 3 points ? 
+
+It will be something link this , note that the last item in the Url will be 3   : 
+localhost:8880/api/poolingpoints/3 
+
+What is the format of URL to request 5 points ? 
+
+localhost:8880/api/poolingpoints/3 
+
+![WebPage](https://user-images.githubusercontent.com/15266919/90053838-529a1680-dcdb-11ea-9ec6-b1402e80dc62.png)
+
+
 
 
