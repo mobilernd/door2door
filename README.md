@@ -28,16 +28,28 @@ In your command line write the following :
 
 then write the following command to start python server ( please use port number 8880 because i used this port in front end ( react ) ) 
 
->> python manage.py runserver
+>> python manage.py runserver 8880
 
 Congratulations , you already started your backend server    
 
-## Setup
-1. Initialize a virtual environment and install the requirements in `requirements.txt`.
-2. Adjust `Simulator.path_to_stops` based on the final architecture of the project/where it will be run from.
+## Front-End React
+1- using your command line and go to folder path :
 
-## Usage
-- Create a `Simulator` instance (`Simulator(bounding_box)`) where `bounding_box` is a `tuple` that looks like this:
+ C:\Users\MahmoudPasha\Desktop\frontend_react\ride-pooling 
+
+Note that : in my PC machine i have the following path " 
+{ your pc folder path }\ride-pooling 
+
+So make sure your command line inside "ride-pooling" folder .
+
+2- run this command :
+>> npm install
+3- npm start 
+
+Untill this point your react server is started .
+
+## How it works ? ( Back end and front end ) 
+- Back end uses moc simulator , it creates `Simulator` instance (`Simulator(bounding_box)`) where `bounding_box` is a `tuple` that looks like this:
 ```python
 # bounding_box = (min_longitude, min_latitude, max_longitude, max_latitude)
 bounding_box = (13.34014892578125, 52.52791908000258, 13.506317138671875, 52.562995039558004)
@@ -50,11 +62,10 @@ result = Simulator(bounding_box).simulate(number_of_requests)
 ```
 where `number_of_requests` is the number of requests to our Ridepooling service to "simulate".
 
-## Output
-The `result` we get is a `dict` that looks like the following:
+## Output Back end 
+The `result` we get is a `dict` that looks like the following: 
 
-| Key                           | Type                                                               | Description                                                                                                                     |
-|-------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| `booking_distance_bins`       | dict                                                               | How many bookings happened for every "kilometer bin". E.g. how many bookings had a distance between 0 and 1km, 1 and 2kms, etc. |
-| `most_popular_dropoff_points` | String (valid [`.geojson`](https://en.wikipedia.org/wiki/GeoJSON)) | Which points within the simulated bounding box were the most popular dropoff points.                                            |
-| `most_popular_pickup_points`  | String (valid [`.geojson`](https://en.wikipedia.org/wiki/GeoJSON)) | Which points within the simulated bounding box were the most popular pickup points.                                             |
+
+
+
+
