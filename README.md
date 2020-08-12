@@ -1,9 +1,12 @@
+# What should you do to run this project ?
+
+Please follow up the following steps in arrangement please ( start with backend first ) .
+
 # BackEnd-Django
 
 Do the following steps to run your BackEnd-Django .
 
 1- Using Any Editor ( i'm using VS Code Editor ) go to your project folder 
- It does not actually simulate any services, etc, but it should be used as if it did.
 
 ## Setup
 1. Initialize a virtual environment and install the requirements in `requirements.txt`.
