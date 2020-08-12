@@ -6,7 +6,31 @@ Please follow up the following steps in arrangement please ( start with backend 
 
 Do the following steps to run your BackEnd-Django .
 
-1- Using Any Editor ( i'm using VS Code Editor ) go to your project folder 
+1- Using Any Editor ( i'm using VS Code Editor ) go to your project folder below ( that is apprear in my machine and you will get another one .
+
+C:\Users\MahmoudPasha\Desktop\mobility-app\Django-simulator
+
+Please use your current porject folder path and the last path name is "Django-simulator" , it will be like this : 
+
+{ your project path here }\Django-simulator 
+
+2- Do not forget to activate virtual environment , you are now in folder name "Django-simulator" , you will find a folder inside it called "Scripts" , 
+In your command line write the following : 
+>> ./Scripts/activate 
+
+3- Make sure that you have installed all back end libs in file name requirments.txt , write the following command : 
+
+>> pip install requirements.txt
+
+
+4- Now we want to call and run file called "manage.py" to run python server , this file ( manage.py) is inside folder name "project" , go to this folder first 
+>> cd project 
+
+then write the following command to start python server ( please use port number 8880 because i used this port in front end ( react ) ) 
+
+>> python manage.py runserver
+
+Congratulations , you already started your backend server    
 
 ## Setup
 1. Initialize a virtual environment and install the requirements in `requirements.txt`.
