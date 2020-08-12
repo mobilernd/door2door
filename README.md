@@ -86,5 +86,29 @@ localhost:8880/api/poolingpoints/3
 ![WebPage](https://user-images.githubusercontent.com/15266919/90053838-529a1680-dcdb-11ea-9ec6-b1402e80dc62.png)
 
 
+## Deeplearning and Neural Netrwork to compute the shortest path between two points ( nodes ) 
 
+![image](https://user-images.githubusercontent.com/15266919/90054102-ad337280-dcdb-11ea-81d1-953447f404c8.png)
+
+Using Deep learning with neural network it will give us good results and once a neural network is trained, 
+The inference time (finding node distance) is constant (O(1)).  
+Suggested algorithms are : 
+
+1- Node2Vec
+
+2- DeepWalk
+
+
+![image](https://user-images.githubusercontent.com/15266919/90054411-1e732580-dcdc-11ea-84f3-4ee6d559313e.png)
+
+
+## Testing web page using Automation testing and generating testing Report .
+
+We used Python selenium with unit testing to generate test cases and finally create testing report 
+
+The final test report will be something like this : 
+
+![image](https://user-images.githubusercontent.com/15266919/90055080-15368880-dcdd-11ea-99d3-0c1f5ecf3a5f.png)
+
+   
 
