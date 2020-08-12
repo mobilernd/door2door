@@ -62,7 +62,7 @@ result = Simulator(bounding_box).simulate(number_of_requests)
 ```
 where `number_of_requests` is the number of requests to our Ridepooling service to "simulate".
 
-## Output Back end 
+## BackEnd RestApi output  
 The `result` we get is a `dict` that looks like the following: 
 
 
