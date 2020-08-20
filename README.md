@@ -116,5 +116,5 @@ Please click on this link below , you have a playlist videos to explain everythi
 
 https://www.youtube.com/watch?v=JIjaEXIkvuI&list=PL5T-e4OjZN99A5lSwMraYQGbGi1D7ITFs
 
-## Made With Love Door2Door , thank you
+
 
